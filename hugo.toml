@@ -1,0 +1,53 @@
+baseURL = "https://marmo.cc/"
+locale = "en-us"
+title = "marmocc's"
+theme = "hugo-coder"
+defaultContentLanguage = "en"
+enableEmoji = true
+enableRobotsTXT = true
+
+[params]
+author = "Tommaso De Tommaso"
+description = "Portfolio and Blog"
+info = ["thinking out loud"]
+keywords = "blog,developer,c,c#,philosophy,gamedev"
+dateFormat = "January 2, 2006"
+since = 2026
+
+hideColorSchemeToggle = false
+colorScheme = "dark"
+
+[[params.social]]
+name = "GitHub"
+icon = "fa-brands fa-github fa-2x"
+weight = 1
+url = "https://github.com/marmocc"
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+
+[languages.en]
+label = "English"
+
+[[languages.en.menu.main]]
+name = "About"
+weight = 1
+url = "about/"
+
+[[languages.en.menu.main]]
+name = "Posts"
+weight = 2
+url = "posts/"
+
+[params.csp]
+childsrc = ["'self'"]
+fontsrc = ["'self'"]
+formaction = ["'self'"]
+framesrc = ["'self'"]
+imgsrc = ["'self'"]
+objectsrc = ["'none'"]
+stylesrc = ["'self'", "'unsafe-inline'"]
+scriptsrc = ["'self'"]
+prefetchsrc = ["'self'"]
+connectsrc = ["'self'"]
