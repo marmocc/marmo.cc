@@ -27,8 +27,14 @@ url = "https://github.com/marmocc"
 [[params.social]]
 name = "YouTube"
 icon = "fa-brands fa-youtube fa-2x"
-weight = 1
+weight = 2
 url = "https://youtube.com/@marmocc"
+
+[[params.social]]
+name = "Email"
+icon = "fa fa-solid fa-envelope"
+weight = 3
+url = "mailto:contact@marmo.cc"
 
 [taxonomies]
 category = "categories"
