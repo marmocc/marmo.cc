@@ -32,7 +32,7 @@ url = "https://youtube.com/@marmocc"
 
 [[params.social]]
 name = "Email"
-icon = "fa-brands fa-envelope fa-2x"
+icon = "fa fa-envelope fa-2x"
 weight = 3
 url = "mailto:contact@marmo.cc"
 
