@@ -7,9 +7,10 @@ enableEmoji = true
 enableRobotsTXT = true
 
 [params]
+avatarURL = "images/avatar.jpg"
 author = "Tommaso De Tommaso"
 description = "Portfolio and Blog"
-info = ["thinking out loud"]
+info = "work in progress"
 keywords = "blog,developer,c,c#,philosophy,gamedev"
 dateFormat = "January 2, 2006"
 since = 2026
@@ -23,6 +24,12 @@ icon = "fa-brands fa-github fa-2x"
 weight = 1
 url = "https://github.com/marmocc"
 
+[[params.social]]
+name = "YouTube"
+icon = "fa-brands fa-youtube fa-2x"
+weight = 1
+url = "https://youtube.com/@marmocc"
+
 [taxonomies]
 category = "categories"
 tag = "tags"
@@ -31,14 +38,9 @@ tag = "tags"
 label = "English"
 
 [[languages.en.menu.main]]
-name = "About"
+name = "Status"
 weight = 1
-url = "about/"
-
-[[languages.en.menu.main]]
-name = "Posts"
-weight = 2
-url = "posts/"
+url = "https://status.marmo.cc"
 
 [params.csp]
 childsrc = ["'self'"]
