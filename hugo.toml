@@ -31,9 +31,15 @@ weight = 2
 url = "https://youtube.com/@marmocc"
 
 [[params.social]]
+name = "LinkedIn"
+icon = "fa-brands fa-linkedin fa-2x"
+weight = 3
+url = "https://www.linkedin.com/in/marmocc"
+
+[[params.social]]
 name = "Email"
 icon = "fa fa-envelope fa-2x"
-weight = 3
+weight = 4
 url = "mailto:contact@marmo.cc"
 
 [taxonomies]
